@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Caviar-Dreams";
+    src: url("../Resources/Fonts/CaviarDreams.ttf");
+}
+
+@font-face {
+    font-family: "Caviar-Dreams";
+    font-weight: bold;
+    src: url("../Resources/Fonts/Caviar_Dreams_Bold.ttf");
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+  
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+  
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+  
+@keyframes slideInFromBottom {
+    0% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+body {
+    font-family: Caviar-Dreams;
+}
+
+.subject #subject {
+    height: 1vh;
+}
+
+.subject h1 {
+    font-family: Franklin Gothic Heavy;
+    font-size: 60px;
+    text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.8);
+    color: rgba(50, 50, 120, 1.0);
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInFromTop;
+}
+  
+.subject #info{
+    font-weight: bold;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInFromRight;
+}
+  
+td h3 {
+    font-family: Franklin Gothic Heavy;
+}
+  
+.subject #name {
+    vertical-align: top;
+    font-weight: bold;
+    width: 30vw;
+}
+  
+td #research {
+    padding: 10px 10px 20px 10px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+table {
+    border-spacing: 20px;
+    margin-top: 10%
+}
+
+.subject h2 {
+    font-family: Franklin Gothic Heavy;
+    font-size: 50px;
+    color: rgba(50, 50, 120, 1.0);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    padding: 0vw 10vw 0vw 10vw;
+}
+
+.subject table{
+    border-spacing: 20px;
+}
+
+a {
+  color: #008494;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:hover {
+  color: #008494;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a:visited {
+  color: #008494;
+  text-decoration: none;
+}
+
+a:active {
+  color: #008494;
+  text-decoration: none;
+}
+
+.subject-container td {
+  font-weight: bold;
+  width: 50%;
+}
+
+.name img {
+  padding-left: 40px;
+  vertical-align: top;
+  width: 40vw;
+  height: 35vw;
+  filter: brightness(0.85);
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInFromLeft;
+}
